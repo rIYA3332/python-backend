@@ -89,3 +89,31 @@ Key implementation details:
 - Numbers less than 2 are explicitly handled as non-prime
 - Input validation using `try/except` to handle non-numeric input
 - Continuous loop allows the user to check multiple numbers and exit when done
+
+---
+
+#### Day 4 — OOP
+**Concepts Covered:** Class, Object, Constructor, Inheritance
+
+**Practice Task: Student Class**
+A Student class that stores name, age, and marks, calculates a letter grade, and displays student details.
+
+Key implementation details:
+- `__init__` constructor initializes name, age, and marks as instance attributes
+- `get_grade()` method returns a letter grade based on marks using an `if/elif` chain
+- `display()` method prints all student details including the calculated grade
+- Students are stored in a list, allowing multiple students to be added in a loop
+- Input validation for age (positive integer) and marks (0 to 100) using `try/except`
+- Empty name check using `.strip()` to prevent blank entries
+
+**Assignment: Bank Account Class**
+A BankAccount class that simulates real banking operations including deposits, withdrawals, balance checks, and transaction history.
+
+Key implementation details:
+- `__init__` constructor sets the account owner, starting balance, and an empty transactions list
+- `deposit()` and `withdraw()` methods validate amounts before updating the balance
+- Withdrawal checks for insufficient balance before processing
+- Every successful transaction is recorded in a list for history tracking
+- `get_balance()` and `get_transactions()` methods display account information cleanly
+- Main program uses a menu-driven loop with numbered options for a clear user experience
+- Input validation using `try/except` throughout to handle non-numeric input gracefully
