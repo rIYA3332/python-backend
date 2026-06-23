@@ -64,3 +64,28 @@ Key implementation details:
 - Grade assignment using `if/elif` chain covering A through F
 - Summary statistics display highest, lowest, and average marks using built-in `max()`, `min()`, and `sum()` functions
 - Continues accepting students until the user explicitly types `no`, with `.strip().lower()` to handle varied input casing
+
+  
+---
+
+
+#### Day 3 - Functions
+**Concepts Covered:** Functions, Lambda, Map, Filter
+
+**Practice Task: Factorial Function**
+Calculates the factorial of a given number using recursion.
+
+Key implementation details:
+- Uses a recursive function where `n! = n × (n-1)!`
+- Base case stops recursion when `n` is 0 or 1
+- Input validation to reject negative numbers and non-integer input
+- Recursion is preferred here for its clarity and mathematical elegance
+
+**Assignment: Prime Number Checker**
+Checks whether a given number is prime and allows repeated checks in a loop.
+
+Key implementation details:
+- Only checks divisors up to the square root of `n` for efficiency
+- Numbers less than 2 are explicitly handled as non-prime
+- Input validation using `try/except` to handle non-numeric input
+- Continuous loop allows the user to check multiple numbers and exit when done
